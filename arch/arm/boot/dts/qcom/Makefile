@@ -39,13 +39,7 @@ dtb-$(CONFIG_ARCH_MSM8909) += msm8909-sim.dtb \
 	msm8909-1gb-qrd-skua.dtb \
 	msm8909-1gb-cdp.dtb \
 	msm8909-1gb-mtp.dtb
-dtb-$(CONFIG_ARCH_MSM8916) += msm8939-sim.dtb \
-	msm8939-rumi.dtb \
-	msm8939-qrd-skuk.dtb \
-	msm8939-cdp.dtb \
-	msm8939-cdp-jdi.dtb \
-	msm8939-mtp.dtb \
-	msm8939-mtp-NX511J.dtb
+dtb-$(CONFIG_ARCH_MSM8916) += msm8939-mtp-NX511J.dtb
 dtb-$(CONFIG_ARCH_MSM8226) += msm8226-sim.dtb \
 	msm8226-fluid.dtb \
 	msm8226-v1-cdp.dtb \
