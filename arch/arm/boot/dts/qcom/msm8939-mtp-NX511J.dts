@@ -21,6 +21,7 @@
 #include "NX511J/msm8939-audio-internal_codec.dtsi"
 #include "NX511J/msm8939-mtp-keys.dtsi"
 #include "NX511J/msm8939-mtp-sensor.dtsi"
+#include "NX511J/msm8916-vbus-otg.dtsi"
 #include "NX511J/msm8939-mtp-tp.dtsi"
 #include "NX511J/msm8939-mdss-pll.dtsi"
 #include "NX511J/msm8939-mdss.dtsi"
@@ -28,7 +29,8 @@
 #include "NX511J/msm8939-mtp-nfc.dtsi"
 #include "NX511J/msm8939-pinctrl-ztemt.dtsi"
 #include "NX511J/msm8939-mtp-breathlight.dtsi"
-
+#include "NX511J/msm8939-mtp-fuelgauge.dtsi"
+#include "NX511J/msm8939-mtp-charger.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. MSM 8939 MTP";
